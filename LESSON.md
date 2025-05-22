@@ -43,8 +43,8 @@ Here's what you need to know for this unit:
 - A **statement** is a single piece of code that instructs the computer to do one thing. It's akin to a sentence for English. A statement is typically on a single line. Note that in the `HelloWorld` program, only line 4 is a statement currently.
 - A **semicolon `;`** is used to end a single statement. It's analogous to a period ending a sentence. *Don't forget to end every statement with a semicolon!*
 - **Quotation marks `""`** are used to mark a **string**, which holds plain text that isn't Java code. For example, the `"Hello World"` string gets displayed to output by the program. Everything between the quotes is the string's text. When putting a string, don't forget the quotation marks, or else the computer will interpret the text as code to be executed and will get confused.
-- `System.out.println(MESSAGE);` is a statement that prints `MESSAGE` to the output. \
-`MESSAGE` must be a string, such as `"Team 1280"`.
+- `System.out.println(VALUE);` is a statement that prints `VALUE` to the output. \
+`VALUE` can be any value, such as the string `"Team 1280"`.
 
 Your code must follow syntax rules strictly; if you break them, the computer won't understand your program and it will show you an error message.
 
