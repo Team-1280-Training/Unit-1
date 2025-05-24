@@ -19,6 +19,7 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
 - [Basic Java Program](#basic-java-program)
     - [Java Language Basics](#java-language-basics)
     - [> Exercise](#-exercise)
+- [Submitting Using Git](#submitting-using-git)
 - [Recap](#recap)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
 
@@ -27,7 +28,7 @@ Welcome to your first Java program!
 To start, we'll make your computer display, or **print**, `Hello World!`.
 
 The code for this program is inside the `HelloWorld.java` file and has already been written for you. Let's open and run this file (but we won't edit it just yet). \
-On the left menu column, make sure the *Explorer* (top button) is selected and is open. \
+On the left menu column (called the *Activity Bar*), make sure the *Explorer* (top button) is selected and is open. \
 Then, in the *Explorer* side bar, click on `HelloWorld.java`.
 
 > **Tip:** Press `Ctrl`+`Alt`+`RightArrow`, to split the current tab to the right side of the *Editor*. \
@@ -77,19 +78,38 @@ class HelloWorld {
 > **Note:** Unlike other apps like Google Docs, VS Code *typically* won't automatically save your edits. You have to save them manually with `Ctrl`+`S`. \
 > The one exception is that, when you run the Java program, edits to the file will get saved.
 
-## Submitting This Assignment
-When you make edits to a file tracked by Git, the changed lines and files will be highlighted.
+## Submitting Using Git
+To manage your files and version history across multiple *repositories*, programmers use Git. \
+For training, we will also use Git to mark a unit as complete.
 
-(git extensions)
-...
+On the *Activity Bar*, click on *Source Control*, third from the top. Or press `Ctrl`+`Shift`+`G`. \
+When you make edits to a file that Git tracks, the changes are highlighted, and you will see the file listed under *Changes*. You should see `HelloWorld.java` there. \
+However, Git hasn't added your changes to the version history yet; you will need to *commit* them (save changes to version control). \
+But first, you need to tell Git which changes you want to commit. (Sometimes, a programmer might want to commit only some of their changes.) \
+Click on the `+` next to `HelloWorld.java` to *stage* the changes you made to this file, to prepare to commit them.
+
+Every commit has a commit message, a description of the changes. This helps document the commit history. \
+Click on the message box above *Commit* and type in a message like "Complete unit". \
+Then, click *Commit* (or press `Ctrl`+`Enter`) to commit the staged changes.
+
+> **Note:** Typically, it is best practice to make small and distinct commits instead of large commits with multiple unrelated changes. \
+> For training, this is not necessary and you can do a single commit at the end of the unit.
+
+This new commit currently lives on your computer only, in the *local repository*. \
+For others to see your changes, you need to *push* your local commits to the *remote repository* at GitHub. \
+The remote repository that you originally cloned with `Git: Clone`, and that you push changes to, is also called the *origin*. \
+Click *Sync Changes* to push the commits to the GitHub repo, which also submits the assignment. In later units, mentors may give feedback on projects.
+
+> **Note:** When the origin contains new commits (from a collaborator) that your local repository doesn't have, \
+> you would *pull* the changes using *Sync Changes*.
 
 ## Recap
 In this unit, you learned:
 - Basic navigation of VS Code
-- How to run a Java program
-- A bit of basic Java syntax
-- How to print a message to the output
-- 
+- Running a Java program using `Run` button
+- Basic Java syntax: statements, semicolons, strings
+- Printing a message to the output using `System.out.println()`
+- Using Git
 
 ### Keyboard Shortcuts
 | Keybinding | Command |
@@ -97,3 +117,4 @@ In this unit, you learned:
 | `Ctrl`+`Shift`+`V` | Open Preview of a *Markdown* (`.md`) file |
 | `Ctrl`+`Alt`+`RightArrow` | Move current tab to split editor on right |
 | `Ctrl`+`S` | Save edits to current file |
+| `Ctrl`+`Shift`+`G` | Open *Source Control* |
