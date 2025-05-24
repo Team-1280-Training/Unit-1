@@ -2,13 +2,16 @@
 
 ## Introduction
 The entire unit lesson is located in this file.
-Press `Ctrl` + `Shift` + `V` to open the *Preview*, which displays this file in the proper format (rather than the raw text).
+Press `Ctrl`+`Shift`+`V` to open the *Preview*, which displays this file in the proper format (rather than the raw text).
 
 <!---
 If you see this sentence, you are not in Preview mode.
 -->
 
 At the top of the VS Code window is the *Tab Bar*, similar to what's in Google Chrome. You can use it to switch between previously opened files and delete unneeded ones.
+
+> **Note:** For Mac/Linux users: One of the extensions we had you install sets the VS Code keyboard shortcuts to Windows (instead of Mac or Linux). \
+> This is to make shortcuts consistent across materials, and it makes it easier to use VS Code on Windows computers.
 
 ### Table of Contents
 - [Introduction](#introduction)
@@ -17,6 +20,7 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
     - [Java Language Basics](#java-language-basics)
     - [> Exercise](#-exercise)
 - [Recap](#recap)
+    - [Keyboard Shortcuts](#keyboard-shortcuts)
 
 ## Basic Java Program
 Welcome to your first Java program!
@@ -26,7 +30,7 @@ The code for this program is inside the `HelloWorld.java` file and has already b
 On the left menu column, make sure the *Explorer* (top button) is selected and is open. \
 Then, in the *Explorer* side bar, click on `HelloWorld.java`.
 
-> **Tip:** Press `Ctrl` + `Alt` + `RightArrow`, to split the current tab to the right side of the *Editor*. \
+> **Tip:** Press `Ctrl`+`Alt`+`RightArrow`, to split the current tab to the right side of the *Editor*. \
 > This lets you view the Lesson and the Java program at the same time.
 
 Don't worry if you don't understand any of the code in the file. \
@@ -70,7 +74,7 @@ class HelloWorld {
 </details>
 <br>
 
-> **Note:** Unlike other apps like Google Docs, VS Code *typically* won't automatically save your edits. You have to save them manually with `Ctrl` + `S`. \
+> **Note:** Unlike other apps like Google Docs, VS Code *typically* won't automatically save your edits. You have to save them manually with `Ctrl`+`S`. \
 > The one exception is that, when you run the Java program, edits to the file will get saved.
 
 ## Submitting This Assignment
@@ -86,3 +90,10 @@ In this unit, you learned:
 - A bit of basic Java syntax
 - How to print a message to the output
 - 
+
+### Keyboard Shortcuts
+| Keybinding | Command |
+| - | - |
+| `Ctrl`+`Shift`+`V` | Open Preview of a *Markdown* (`.md`) file |
+| `Ctrl`+`Alt`+`RightArrow` | Move current tab to split editor on right |
+| `Ctrl`+`S` | Save edits to current file |
