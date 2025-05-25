@@ -23,6 +23,8 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
 - [Recap](#recap)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
 
+[Feedback](#feedback)
+
 ## Basic Java Program
 Welcome to your first Java program!
 To start, we'll make your computer display, or **print**, `Hello World!`.
@@ -118,3 +120,20 @@ In this unit, you learned:
 | `Ctrl`+`Alt`+`RightArrow` | Move current tab to split editor on right |
 | `Ctrl`+`S` | Save edits to current file |
 | `Ctrl`+`Shift`+`G` | Open *Source Control* |
+
+# Feedback
+Please provide feedback if you have any.
+
+This is the first training with these new programming materials. \
+We would appreciate if you mention any issues you had; you can also suggest improvements for them.
+- Confusing explanations
+- Knowledge, skills, or procedures that were required but weren't taught
+- Too fast or too slow explanations; pacing
+- Too hard or too easy exercises
+- Step-by-step instructions that are not comprehensive/thorough enough, or didn't work
+- Seemingly unnecessary or ineffective information or exercises
+- Any improvements (e.g. wording) or more effective ways/formats to teach
+
+Type below (go to the "raw" file, as *Preview* does not support editing). (For this unit, you need to make another commit):
+___
+
