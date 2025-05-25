@@ -34,8 +34,8 @@ The code for this program is inside the `HelloWorld.java` file and has already b
 On the left menu column (called the *Activity Bar*), make sure the *Explorer* (top button) is selected and is open. \
 Then, in the *Explorer* side bar, click on `HelloWorld.java`.
 
-> **Tip:** Press `Ctrl`+`Alt`+`RightArrow`, to split the current tab to the right side of the *Editor*. \
-> This lets you view the Lesson and the Java program at the same time.
+> **Tip:** Press `Ctrl`+`Alt`+`RightArrow`, or drag the the current tab (*Preview*) from the *Tab Bar* to the very right of the window. \
+> This splits the current tab to the right side of the *Editor*, allowing you view the Lesson and the Java program at the same time.
 
 Don't worry if you don't understand any of the code in the file. \
 To run our program, either click `Run` (appears between lines 1 and 2 in `HelloWorld.java`), or click the play icon in the *Tab Bar* (note that the `HelloWorld.java` tab must selected for the icon to appear).
