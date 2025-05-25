@@ -23,7 +23,8 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
 - [Recap](#recap)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
 
-[Feedback](#feedback)
+[Feedback](#feedback) \
+[License](#license)
 
 ## Basic Java Program
 Welcome to your first Java program!
@@ -121,7 +122,7 @@ In this unit, you learned:
 | `Ctrl`+`S` | Save edits to current file |
 | `Ctrl`+`Shift`+`G` | Open *Source Control* |
 
-# Feedback
+## Feedback
 Please provide feedback if you have any.
 
 This is the first training with these new programming materials. \
@@ -137,3 +138,9 @@ We would appreciate if you mention any issues you had; you can also suggest impr
 Type below (go to the "raw" file, as *Preview* does not support editing). (For this unit, you need to make another commit):
 ___
 
+
+
+## License
+© 2025 @aatle, @spacepotatoes3
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
