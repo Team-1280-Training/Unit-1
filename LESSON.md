@@ -115,6 +115,10 @@ In this unit, you learned:
 - Using Git
 
 ### Keyboard Shortcuts
+Throughout the course, various keyboard shortcuts will be mentioned. \
+Don't memorize them, but instead simply try to **use only the ones that you find helpful**. \
+There is a quicker keybinding for almost all operations, especially those where you'd typically use your mouse.
+
 | Keybinding | Command |
 | - | - |
 | `Ctrl`+`Shift`+`V` | Open Preview of a *Markdown* (`.md`) file |
