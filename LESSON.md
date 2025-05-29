@@ -85,7 +85,7 @@ class HelloWorld {
 To manage your files and version history across multiple *repositories*, programmers use Git. \
 For training, we will also use Git to mark a unit as complete.
 
-On the *Activity Bar*, click on *Source Control*, third from the top. Or press `Ctrl`+`Shift`+`G`. \
+On the *Activity Bar*, click on *Source Control*, third from the top. \
 When you make edits to a file that Git tracks, the changes are highlighted, and you will see the file listed under *Changes*. You should see `HelloWorld.java` there. \
 However, Git hasn't added your changes to the version history yet; you will need to *commit* them (save changes to version control). \
 But first, you need to tell Git which changes you want to commit. (Sometimes, a programmer might want to commit only some of their changes.) \
@@ -93,7 +93,7 @@ Click on the `+` next to `HelloWorld.java` to *stage* the changes you made to th
 
 Every commit has a commit message, a description of the changes. This helps document the commit history. \
 Click on the message box above *Commit* and type in a message like "Complete unit". \
-Then, click *Commit* (or press `Ctrl`+`Enter`) to commit the staged changes.
+Then, click *Commit* to commit the staged changes.
 
 > **Note:** Typically, it is best practice to make small and distinct commits instead of large commits with multiple unrelated changes. \
 > For training, this is not necessary and you can do a single commit at the end of the unit.
@@ -124,7 +124,6 @@ There is a quicker keybinding for almost all operations, especially those where 
 | `Ctrl`+`Shift`+`V` | Open Preview of a *Markdown* (`.md`) file |
 | `Ctrl`+`Alt`+`RightArrow` | Move current tab to split editor on right |
 | `Ctrl`+`S` | Save edits to current file |
-| `Ctrl`+`Shift`+`G` | Open *Source Control* |
 
 ## Feedback
 Please provide feedback if you have any.
