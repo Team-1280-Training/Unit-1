@@ -66,7 +66,7 @@ Goodbye!
 <details><summary>Solution code</summary>
 
 ```java
-class HelloWorld {
+public class HelloWorld {
     public static void main(String[] args) {
         // Ignore everything above this line
         System.out.println("Hello World!");
