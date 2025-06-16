@@ -18,7 +18,7 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
     - [Table of Contents](#table-of-contents)
 - [Basic Java Program](#basic-java-program)
     - [Java Language Basics](#java-language-basics)
-    - [> Exercise](#-exercise)
+    - [> Exercise](#exercise)
 - [Submitting Using Git](#submitting-using-git)
 - [Recap](#recap)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
