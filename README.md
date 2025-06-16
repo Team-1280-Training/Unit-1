@@ -18,7 +18,7 @@ At the top of the VS Code window is the *Tab Bar*, similar to what's in Google C
     - [Table of Contents](#table-of-contents)
 - [Basic Java Program](#basic-java-program)
     - [Java Language Basics](#java-language-basics)
-    - [> Exercise](#exercise)
+    - [>Exercise](#exercise)
 - [Submitting Using Git](#submitting-using-git)
 - [Recap](#recap)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
@@ -56,7 +56,7 @@ Here's what you need to know for this unit:
 
 Your code must follow syntax rules strictly; if you break them, the computer won't understand your program and it will show you an error message.
 
-### > Exercise:
+### >Exercise
 In `HelloWorld.java`, add a new statement between lines 4 and 5 that prints `Goodbye!`. \
 Run the program. Expected output:
 ```
