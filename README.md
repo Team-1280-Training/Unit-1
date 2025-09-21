@@ -126,9 +126,9 @@ There is a quicker keybinding for almost all operations, especially those where 
 | `Ctrl`+`S` | Save edits to current file |
 
 ## Feedback
-Please provide feedback if you have any.
+Please provide feedback if you have any. \
+Also, please give an estimate of how much time you spent on this unit.
 
-This is the first training with these new programming materials. \
 We would appreciate if you mention any issues you had; you can also suggest improvements for them.
 - Confusing explanations
 - Knowledge, skills, or procedures that were required but weren't taught
