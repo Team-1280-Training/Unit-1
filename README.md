@@ -97,6 +97,21 @@ Then, click *Commit* to commit the staged changes.
 
 > **Note:** Typically, it is best practice to make small and distinct commits instead of large commits with multiple unrelated changes. \
 > For training, this is not necessary and you can do a single commit at the end of the unit.
+___
+
+If you get a popup saying `Make sure you configure your "user.name" and "user.email" in git.`, then you will need to enter some commands in the *Terminal* this first time. \
+First, to open the *Terminal* (if it is not already), press `Ctrl`+`` ` `` (backtick character above `Tab`). \
+Then, enter the following two commands, which will configure the author name and author email associated with all of your commits:
+> ***Warning:*** The following two pieces of information that you set will be publicly accessible on the internet! \
+> If you do not want to expose personal information, then use your GitHub username as the name, and for email, use your GitHub's account's noreply email found [here](https://github.com/settings/emails) (the `LONGNUMBER+username@users.noreply.github.com` email).
+```bash
+git config --global user.name "Full Name"
+```
+```bash
+git config --global user.email "your@email.com"
+```
+Then, try *Commit* again.
+___
 
 This new commit currently lives on your computer only, in the *local repository*. \
 For others to see your changes, you need to *push* your local commits to the *remote repository* at GitHub. \
@@ -124,6 +139,7 @@ There is a quicker keybinding for almost all operations, especially those where 
 | `Ctrl`+`Shift`+`V` | Open Preview of a *Markdown* (`.md`) file |
 | `Ctrl`+`Alt`+`RightArrow` | Move current tab to split editor on right |
 | `Ctrl`+`S` | Save edits to current file |
+| `Ctrl`+`` ` `` | Toggle Terminal View |
 
 ## Feedback
 Please provide feedback if you have any. \
