@@ -85,7 +85,9 @@ public class HelloWorld {
 To manage your files and version history across multiple *repositories*, programmers use Git. \
 For training, we will also use Git to mark a unit as complete.
 
-On the *Activity Bar*, click on *Source Control*, third from the top. \
+First, always make sure that you have saved your changes using `Ctrl`+`S`. The *Explorer* icon in the top left should not have a number that tells that there are some unsaved files. Unsaved edits won't be visible in the next step, so be sure that your edits are saved.
+
+On the *Activity Bar*, click on *Source Control*, third from the top. You'll notice that the icon will have a number indicating there are some changed files. \
 When you make edits to a file that Git tracks, the changes are highlighted, and you will see the file listed under *Changes*. You should see `HelloWorld.java` there. \
 However, Git hasn't added your changes to the version history yet; you will need to *commit* them (save changes to version control). \
 But first, you need to tell Git which changes you want to commit. (Sometimes, a programmer might want to commit only some of their changes.) \
