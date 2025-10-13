@@ -123,6 +123,11 @@ Click *Sync Changes* to push the commits to the GitHub repo, which also submits 
 > **Note:** When the origin contains new commits (from a collaborator) that your local repository doesn't have, \
 > you would *pull* the changes using *Sync Changes*.
 
+Also note that *Sync Changes* only appears when you don't have any unpushed changes (as otherwise the button would show *Commit*). \
+You can also find the small `Synchronize Changes` in the bar above the Message box, or enter `git push` in the *Terminal*.
+
+The *Source Control* tab is a convenient GUI for simple Git operations. In the future, you may learn how to use *Terminal* Git commands for more advanced features.
+
 ## Recap
 In this unit, you learned:
 - Basic navigation of VS Code
