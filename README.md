@@ -118,7 +118,7 @@ ___
 This new commit currently lives on your computer only, in the *local repository*. \
 For others to see your changes, you need to *push* your local commits to the *remote repository* at GitHub. \
 The remote repository that you originally cloned with `Git: Clone`, and that you push changes to, is also called the *origin*. \
-Click *Sync Changes* to push the commits to the GitHub repo, which also submits the assignment. In later units, mentors may give feedback on projects.
+Click *Sync Changes* to push the commits to the GitHub repo, which also submits the assignment. In later units, instructors may give feedback on projects.
 
 > **Note:** When the origin contains new commits (from a collaborator) that your local repository doesn't have, \
 > you would *pull* the changes using *Sync Changes*.
