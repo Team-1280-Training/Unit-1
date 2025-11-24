@@ -41,7 +41,9 @@ Don't worry if you don't understand any of the code in the file. \
 To run our program, either click `Run` (appears between lines 1 and 2 in `HelloWorld.java`), or click the play icon in the *Tab Bar* (note that the `HelloWorld.java` tab must selected for the icon to appear).
 
 Once you run it, a panel at the bottom will open as *Terminal*, and some text will appear. \
-The second-to-last line of text is the program output, and it should say `Hello World!`. \
+The second-to-last line of text is the program output here, and it should say `Hello World!`. \
+Note that there may be a lot of other unrelated output above and below the actual program output.
+
 You got your computer to say hi!
 
 ### Java Language Basics
