@@ -2,7 +2,7 @@
 
 ## Introduction
 The entire unit lesson is located in this file.
-Press `Ctrl`+`Shift`+`V` to open the *Preview*, which displays this file in the proper format (rather than the raw text).
+Press `Ctrl/Command`+`Shift`+`V` to open the *Preview*, which displays this file in the proper format (rather than the raw text).
 
 <!---
 If you see this sentence, you are not in Preview mode.
@@ -10,8 +10,7 @@ If you see this sentence, you are not in Preview mode.
 
 At the top of the VS Code window is the *Tab Bar*, similar to what's in Google Chrome. You can use it to switch between previously opened files and delete unneeded ones.
 
-> **Note:** For Mac/Linux users: One of the extensions we had you install sets the VS Code keyboard shortcuts to Windows (instead of Mac or Linux). \
-> This is to make shortcuts consistent across materials, and it makes it easier to use VS Code on Windows computers.
+> **Note:** For Mac/Linux users: Some keyboard shortcuts may differ. On macOS, most shortcuts use `Command` instead of `Ctrl`.
 
 ### Table of Contents
 - [Introduction](#introduction)
