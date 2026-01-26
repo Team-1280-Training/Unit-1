@@ -105,7 +105,7 @@ ___
 
 If you get a popup saying `Make sure you configure your "user.name" and "user.email" in git.`, then you will need to enter some commands in the *Terminal* this first time. \
 First, to open the *Terminal* (if it is not already), press `Ctrl`+`` ` `` (backtick character above `Tab`). \
-Then, enter the following two commands, which will configure the author name and author email associated with all of your commits:
+Then, enter the following two commands into the *Terminal*, which will configure the author name and author email associated with all of your commits:
 > ***Warning:*** The following two pieces of information that you set will be publicly accessible on the internet! \
 > If you do not want to expose personal information, then use your GitHub username as the name, and for email, use your GitHub's account's noreply email found [here](https://github.com/settings/emails) (the `LONGNUMBER+username@users.noreply.github.com` email).
 ```bash
@@ -120,7 +120,8 @@ ___
 This new commit currently lives on your computer only, in the *local repository*. \
 For others to see your changes, you need to *push* your local commits to the *remote repository* at GitHub. \
 The remote repository that you originally cloned with `Git: Clone`, and that you push changes to, is also called the *origin*. \
-Click *Sync Changes* to push the commits to the GitHub repo, which also submits the assignment. In later units, instructors may give feedback on projects.
+Click *Sync Changes* to push the commits to the GitHub repo, which also submits the assignment. If a pop-up appears with `This action will pull and push commits from and to origin/main`, click `Ok, don't show again`. \
+In later units, instructors may give feedback on projects.
 
 > **Note:** When the origin contains new commits (from a collaborator) that your local repository doesn't have, \
 > you would *pull* the changes using *Sync Changes*.
